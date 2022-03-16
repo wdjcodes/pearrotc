@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application' 
+}
+
+repositories {
+    mavenCentral() 
+}
+
+dependencies {
+    implementation project(":pearrot")
+    implementation "org.apache.logging.log4j:log4j-core:2.17.2"
+}
+
+application {
+    mainClass = 'dev.wdjcodes.pearrotc.PearrotCompiler'
+}
+
+//jar {
+//    from project(":pearrot").sourceSets.main.output
+//}

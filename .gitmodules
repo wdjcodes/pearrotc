@@ -1,0 +1,3 @@
+[submodule "pearrot"]
+	path = pearrot
+	url = ../pearrot

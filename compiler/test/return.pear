@@ -1,0 +1,5 @@
+class Return {
+	int main(){
+		return 0;
+	}
+}
